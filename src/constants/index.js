@@ -1,0 +1,241 @@
+import {
+    backend,
+    carrent,
+    creator,
+    docker,
+    git,
+    javascript,
+    jobit,
+    HD_logo,
+    mobile,
+    mongodb,
+    reactjs,
+    redux,
+    iwmbuzz_logo,
+    TSP_logo,
+    tailwind,
+    tripguide,
+    typescript,
+    web,
+    Wevise_logo,
+} from "../assets";
+  
+  export const navLinks = [
+    {
+      id: "about",
+      title: "About",
+    },
+    {
+      id: "work",
+      title: "Work",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+  ];
+  
+  const services = [
+    {
+      title: "Full Stack Developer",
+      icon: web,
+    },
+    {
+      title: "React Developer",
+      icon: mobile,
+    },
+    {
+      title: "Software Engineer",
+      icon: backend,
+    },
+    {
+      title: "SEO Engineer",
+      icon: creator,
+    },
+  ];
+  
+  const technologies = [
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+  ];
+  
+  const experiences = [
+    {
+      title: "Junior Software Engineer",
+      company_name: "Wevise",
+      icon: Wevise_logo,
+      iconBg: "#383E56",
+      date: "July 2025 - Present",
+      points: [
+      ],
+    },
+    {
+      title: "Digital Marketing and Web Development Intern",
+      company_name: "Hubzone Depot",
+      icon: HD_logo,
+      iconBg: "#E6DEDD",
+      date: "August 2024 - February 2025",
+      points: [
+        "Conducted on-page SEO audits using Rank Math and developed custom WordPress plugins to automate structural enhancements (meta tags, canonical links, XML sitemaps), increasing organic impressions by 28% in 2 months.",
+        "Imporved site performance by compressing assets, lazy-loading images and removing unused JavaScripts/CSS, reducing average load time by 1.4 seconds (GTmetrix)",
+        "Designed and developed the frontend for an e-commerce microsite using React.js and Tailwind CSS, implementing a responsive product listing interface and integrating with backend endpoints for product retrieval and order actions",
+        "Contributed to backend logic using Node.js and Express to support dynamic product filtering and cart management, collaborating closely with a small dev team on deployment and testing.",
+        "Developed and deployed custom PHP hooks for Salesforce REST API integration, syncing over 1,000 leads monthly between the WordPress CRM forms and Salesforce, with real-time validation via sandbox testing",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "IWMBuzz",
+      icon: iwmbuzz_logo,
+      iconBg: "#383E56",
+      date: "June 2023 - July 2023",
+      points: [
+        "Played a key role in the end-to-end development of IWMBuzz’s media platform, helping scale its web infrastructure to support over 10,000+ monthly users, with improved page speed and stability",
+        "Led frontend development using React.js, TypeScript, and Tailwind CSS, building modular, accessible components and micro-interactions for user-facing features like search, filtering, content bookmarking, and user profile management.",
+        "Designed and customized RESTful APIs using Node.js and Express, connecting the frontend to dynamic data pipelines and enabling real-time content publishing, comment threads, and editorial workflows",
+        "Followed backend development closely under the guidance of senior engineers, contributing to routes, middleware, and data models using Node.js and Express, this foundation later enabled me to independently build full end-to-end features for internal and external tools.",
+        "Wrote unit, integration, and API tests using Jest, React Testing Library, and Supertest, achieving 85% test coverage across core modules and reducing production bugs by 30%.",
+        "Led development of multiple internal tools (e.g., editorial dashboards) and external microsites (e.g., campaign landing pages), owning both frontend and backend workflows from design handoff to deployment.",
+        "Built, tested, and deployed these projects using AWS EC2, RDS, and S3, with automated CI/CD pipelines configured via GitHub Actions and Docker for streamlined staging and production releases.",
+      ],
+    },
+    {
+      title: "Data Science and Business Analytics Intern",
+      company_name: "The Sparks Foundation",
+      icon: TSP_logo,
+      iconBg: "#E6DEDD",
+      date: "August 2021 - October 2021",
+      points: [
+        "Contributed to an initiative focused on helping schools and education systems analyze student performance data to proactively support at-risk learners.",
+        "Cleaned, visualized, and analyzed multi-subject score data for 1,000+ students using Pandas, NumPy, and Seaborn, identifying patterns based on gender, test preparation status, and grade distribution.",
+        "Developed a rule-based classification model to flag students likely to struggle academically, achieving ~85% alignment with manual reviews and providing a foundation for targeted academic intervention.",
+      ],
+    },
+  ];
+  
+  const testimonials = [
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      name: "Sara Lee",
+      designation: "CFO",
+      company: "Acme Co",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
+    {
+      testimonial:
+        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      name: "Chris Brown",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+    },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Lisa Wang",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
+  ];
+  
+  const projects = [
+    {
+      name: "Car Rent",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Job IT",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+  ];
+  
+  export { experiences, projects, services, technologies, testimonials };
+  
