@@ -1,11 +1,9 @@
 import {
     backend,
-    carrent,
     creator,
     docker,
     git,
     javascript,
-    jobit,
     HD_logo,
     mobile,
     mongodb,
@@ -14,9 +12,11 @@ import {
     iwmbuzz_logo,
     TSP_logo,
     tailwind,
-    tripguide,
     typescript,
+    weatherapp,
+    dogmatch,
     web,
+    comingsoon,
     Wevise_logo,
 } from "../assets";
   
@@ -173,16 +173,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Weather App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I developed a weather application with geolocation functionality, prompting users for location access upon website load. Using the Geolocation API and OpenWeatherMap API, the app fetches and displays real-time weather information based on the user's current location. This feature works alongside a manual city search, providing a comprehensive weather overview with temperature, city name, weather conditions, and real-time images.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "OpenWeathermap",
           color: "green-text-gradient",
         },
         {
@@ -190,50 +190,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: weatherapp,
+      source_code_link: "https://github.com/TanyaRod22/WeatherApp.github.io",
     },
     {
-      name: "Job IT",
+      name: "DevTinder",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A full-stack matchmaking platform for developers, built with React, Node.js, and MongoDB. Features include secure user auth with JWT, profile creation, and protected API routes. Future updates will add real-time matching, messaging, and Salesforce integration.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "TypeScript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Next",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: comingsoon,
+      source_code_link: "In Progress",
     },
     {
-      name: "Trip Guide",
+      name: "Match Your Dog",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Match Dogs is a sleek, interactive app designed to help users discover compatible dog matches based on personalized preferences. Built using modern full-stack technologies, the app streamlines the matching process with features like compatibility sorting, favorite tracking, and intuitive, user-focused design. It’s a charming way to connect people and pups!",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "TyepScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dogmatch,
+      source_code_link: "https://github.com/TanyaRod22/fetch-dog-app",
     },
   ];
   
