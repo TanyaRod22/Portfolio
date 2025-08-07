@@ -6,12 +6,12 @@ import Image from "../assets/Image.jpg"
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#050816' }}>
+    <section className="relative min-h-screen flex items-center justify-center pt-16 pb-8 sm:pt-20 sm:pb-12 md:pt-24 md:pb-16" style={{ backgroundColor: '#050816' }}>
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-gradient-to-r from-[#915eff]/10 to-purple-400/10 blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 rounded-full bg-gradient-to-r from-blue-400/10 to-purple-400/10 blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-gradient-to-r from-violet-400/5 to-purple-400/5 blur-3xl"></div>
+        <div className="absolute top-[40%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-gradient-to-r from-violet-400/5 to-purple-400/5 blur-3xl"></div>
       </div>
 
       <div className="container relative z-10 px-4 md:px-6 max-w-6xl mx-auto">
@@ -132,7 +132,7 @@ const Hero = () => {
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev 
+            <motion.div 
               animate={{
                 y: [0, 24, 0]
               }}
