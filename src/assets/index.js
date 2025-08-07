@@ -22,9 +22,9 @@ import iwmbuzz_logo from "./company/iwmbuzz_logo.jpg";
 import TSP_logo from "./company/TSP_logo.png";
 import Wevise_logo from "./company/Wevise_logo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import comingsoon from "./comingsoon.jpg";
+import dogmatch from "./dogmatch.png";
+import weatherapp from "./weatherapp.png";
 
 export {
   logo,
@@ -48,7 +48,7 @@ export {
   redux,
   tailwind,
   typescript,
-  carrent,
-  jobit,
-  tripguide,
+  dogmatch,
+  weatherapp,
+  comingsoon,
 };
