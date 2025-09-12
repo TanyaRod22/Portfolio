@@ -11,20 +11,20 @@ import { slideIn, fadeIn } from '../utils/motion';
 
 const Contact = () => {
   const formRef = useRef();
-  const [form, setform] = useState({
+  const [form, setForm] = useState({
     name: '',
     email: '',
     message: '',
-  })
-  const [loading, setloading] = useState(false);
+  });
+  const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
-    const { name, valuse } =  e.target
+    const { name, value } =  e.target
       
-      setFrom({ ...form, [name]: value})
+      setForm({ ...form, [name]: value})
   }
   const handleSubmit = (e) => {
-    e.prventDefault();
-    setloading(true);
+    e.preventDefault();
+    setLoading(true);
 
     // 0nkhrF_LPXq5kbjmY
     // template_zxtdhzh
@@ -36,17 +36,17 @@ const Contact = () => {
       {
         from_name: form.name,
         to_name: 'Tanya',
-        from_email: from.email,
+        from_email: form.email,
         to_email: 'tanyarodriges067@gmail.com',
-        message: from.message,
+        message: form.message,
       },
       '0nkhrF_LPXq5kbjmY'
     )
     .then(() => {
-      setloading(false);
+      setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.");
 
-      setform({
+      setForm({
         name: '',
         email: '',
         message: '',
@@ -94,7 +94,7 @@ const Contact = () => {
           <span className="text-white font-medium mb-4">Your Message</span>
           <textarea 
           rows="7"
-          name="Message" 
+          name="message" 
           value={form.message} 
           onChange={handleChange}
           placeholder="What do you want to say?"

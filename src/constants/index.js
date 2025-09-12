@@ -7,8 +7,10 @@ import {
     HD_logo,
     mobile,
     mongodb,
+    python,
     reactjs,
     redux,
+    nodejs,
     iwmbuzz_logo,
     TSP_logo,
     tailwind,
@@ -49,7 +51,7 @@ import {
       icon: backend,
     },
     {
-      title: "SEO Engineer",
+      title: "AI Engineer",
       icon: creator,
     },
   ];
@@ -67,14 +69,21 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-
     {
       name: "Redux Toolkit",
       icon: redux,
     },
     {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "MongoDB",
@@ -96,12 +105,16 @@ import {
       company_name: "Wevise",
       icon: Wevise_logo,
       iconBg: "#383E56",
-      date: "July 2025 - Present",
+      date: "April 2025 - Present",
       points: [
+        "Build and enhance frontend features for the Wevise platform using React, TypeScript, and Next.js, ensuring scalability, responsiveness, and seamless integration with backend services",
+        "Write and execute unit tests to validate functionality, contributing to reliable releases and reducing bugs in production.",
+        "Regularly participate in peer code reviews, incorporating feedback to maintain clean, maintainable, and efficient code.",
+        "Work in an agile environment, collaborating with senior engineers, designers, and product managers to deliver features from Jira tickets to production",
       ],
     },
     {
-      title: "Digital Marketing and Web Development Intern",
+      title: "Software Engineer",
       company_name: "Hubzone Depot",
       icon: HD_logo,
       iconBg: "#E6DEDD",
@@ -115,7 +128,7 @@ import {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Software DevelopmentEngineer",
       company_name: "IWMBuzz",
       icon: iwmbuzz_logo,
       iconBg: "#383E56",
@@ -131,15 +144,15 @@ import {
       ],
     },
     {
-      title: "Data Science and Business Analytics Intern",
+      title: "Software Engineering Intern",
       company_name: "The Sparks Foundation",
       icon: TSP_logo,
       iconBg: "#E6DEDD",
-      date: "August 2021 - October 2021",
+      date: "June 2021 - October 2021",
       points: [
-        "Contributed to an initiative focused on helping schools and education systems analyze student performance data to proactively support at-risk learners.",
-        "Cleaned, visualized, and analyzed multi-subject score data for 1,000+ students using Pandas, NumPy, and Seaborn, identifying patterns based on gender, test preparation status, and grade distribution.",
-        "Developed a rule-based classification model to flag students likely to struggle academically, achieving ~85% alignment with manual reviews and providing a foundation for targeted academic intervention.",
+        "Automated ETL pipelines in Python on AWS, cutting manual data processing time by 50% for fraud detection analytics.",
+        "Designed predictive analytics features, enabling early detection of healthcare fraud patterns, aligning with mission-driven use cases.",
+        "Built interactive dashboards (Tableau, Looker Studio) to translate complex data into actionable insights for both technical and non-technical stakeholders.",
       ],
     },
   ];

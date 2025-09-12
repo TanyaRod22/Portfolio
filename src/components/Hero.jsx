@@ -82,7 +82,7 @@ const Hero = () => {
                 className="flex items-center rounded-lg text-gray-300 hover:text-white hover:bg-white/10 text-sm sm:text-base"
               >
                 <Download className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
-                  <a href="https://drive.google.com/file/d/1cN0rt7qSgGWPVDdiAT-Sp-aj_5Di7P5S/view?usp=sharing">Resume</a>
+                  <a href="https://drive.google.com/file/d/1o6ZlPPFLVFlmb0yGahAnq8WtdQzHR7l4/view?usp=sharing">Resume</a>
               </Button>
             </div>
 
@@ -114,7 +114,7 @@ const Hero = () => {
                 />
                 
                 {/* Floating tech icons */}
-                <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-[#915eff] flex items-center justify-center shadow-lg animate-bounce">
+                {/* <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-[#915eff] flex items-center justify-center shadow-lg animate-bounce">
                   <Code className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
                 </div>
                 <div className="absolute -bottom-3 -left-3 sm:-bottom-4 sm:-left-4 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-purple-600 flex items-center justify-center shadow-lg animate-bounce" style={{ animationDelay: '0.5s' }}>
@@ -122,7 +122,7 @@ const Hero = () => {
                 </div>
                 <div className="absolute top-1/2 -left-4 sm:-left-5 md:-left-6 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 rounded-full bg-pink-500 flex items-center justify-center shadow-lg animate-bounce" style={{ animationDelay: '1s' }}>
                   <Globe className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
