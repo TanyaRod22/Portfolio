@@ -21,7 +21,7 @@ import typescript from "./tech/typescript.png";
 import HD_logo from "./company/HD_logo.png";
 import iwmbuzz_logo from "./company/iwmbuzz_logo.jpg";
 import TSP_logo from "./company/TSP_logo.png";
-import Wevise_logo from "./company/Wevise_logo.png";
+import humana_logo from "./company/humana_logo.png";
 
 import comingsoon from "./comingsoon.jpg";
 import dogmatch from "./dogmatch.png";
@@ -37,8 +37,8 @@ export {
   menu,
   HD_logo,
   iwmbuzz_logo,
-  Wevise_logo,
   TSP_logo,
+  humana_logo,
   close,
   docker,
   git,

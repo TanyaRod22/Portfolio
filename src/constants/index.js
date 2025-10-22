@@ -19,7 +19,7 @@ import {
     dogmatch,
     web,
     comingsoon,
-    Wevise_logo,
+    humana_logo,
 } from "../assets";
   
   export const navLinks = [
@@ -101,16 +101,16 @@ import {
   
   const experiences = [
     {
-      title: "Junior Software Engineer",
-      company_name: "Wevise",
-      icon: Wevise_logo,
+      title: "Software Development Engineer",
+      company_name: "Humana",
+      icon: humana_logo,
       iconBg: "#383E56",
-      date: "April 2025 - Present",
+      date: "March 2025 - Present",
       points: [
-        "Build and enhance frontend features for the Wevise platform using React, TypeScript, and Next.js, ensuring scalability, responsiveness, and seamless integration with backend services",
-        "Write and execute unit tests to validate functionality, contributing to reliable releases and reducing bugs in production.",
-        "Regularly participate in peer code reviews, incorporating feedback to maintain clean, maintainable, and efficient code.",
-        "Work in an agile environment, collaborating with senior engineers, designers, and product managers to deliver features from Jira tickets to production",
+        "Considered, developed, and deployed scalable backend services using Python, improving system performance and reducing API response latency by 35%.",
+        "Engineered RESTful APIs and microservices to support high-traffic enterprise applications, integrating with React.js, Angular, and Node.js for dynamic front-end experiences.",
+        "Deployed applications on AWS (EC2, S3, Lambda, RDS, CloudWatch), achieving 99.9% uptime and improving system reliability.",
+        "Constructed and maintained data-driven applications with PostgreSQL, MySQL, and MongoDB, optimizing query performance and ensuring high data consistency across",
       ],
     },
     {
@@ -128,7 +128,7 @@ import {
       ],
     },
     {
-      title: "Software DevelopmentEngineer",
+      title: "Software Development Engineer",
       company_name: "IWMBuzz",
       icon: iwmbuzz_logo,
       iconBg: "#383E56",
