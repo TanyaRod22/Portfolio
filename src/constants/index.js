@@ -19,7 +19,7 @@ import {
     dogmatch,
     web,
     comingsoon,
-    humana_logo,
+    microsoft_logo,
 } from "../assets";
   
   export const navLinks = [
@@ -102,10 +102,10 @@ import {
   const experiences = [
     {
       title: "Software Development Engineer",
-      company_name: "Humana",
-      icon: humana_logo,
+      company_name: "Microsoft",
+      icon: microsoft_logo,
       iconBg: "#383E56",
-      date: "March 2025 - Present",
+      date: "June 2025 - Present",
       points: [
         "Considered, developed, and deployed scalable backend services using Python, improving system performance and reducing API response latency by 35%.",
         "Engineered RESTful APIs and microservices to support high-traffic enterprise applications, integrating with React.js, Angular, and Node.js for dynamic front-end experiences.",
