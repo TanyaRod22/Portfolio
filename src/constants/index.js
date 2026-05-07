@@ -109,10 +109,12 @@ import {
       iconBg: "#383E56",
       date: "June 2025 - Dec 2025",
       points: [
-        "Considered, developed, and deployed scalable backend services using Python, improving system performance and reducing API response latency by 35%.",
-        "Engineered RESTful APIs and microservices to support high-traffic enterprise applications, integrating with React.js, Angular, and Node.js for dynamic front-end experiences.",
-        "Deployed applications on AWS (EC2, S3, Lambda, RDS, CloudWatch), achieving 99.9% uptime and improving system reliability.",
-        "Constructed and maintained data-driven applications with PostgreSQL, MySQL, and MongoDB, optimizing query performance and ensuring high data consistency across",
+        "Built a full-stack platform using FastAPI, React Native (Expo), and PostgreSQL, delivering 25+ API endpoints, 15+ mobile screens, and 2 role-based experiences (homeowner + contractor) across estimate-to-project workflows.",
+        "Designed a rule-based estimate engine that converts unstructured inputs into structured BOM/labor outputs, supporting 100+ estimate scenarios and reducing manual estimation steps by ~60% in internal testing.",
+        "Implemented LLM-powered structured-output pipelines (prompting, schema validation, normalization, fallback handling), achieving ~95% schema-valid responses and reducing parse/format failures by ~70% during development iterations.",
+        "Architected multi-step workflow/state management (draft → contractor_ready → accepted → in_progress → completed), covering 5+ lifecycle states and 10+ guarded transitions to keep UI/API behavior consistent.",
+        "Built backend data pipelines and domain models for contractor matching, milestones, reviews, and payment history, processing 100% of estimate payloads through normalized service layers before persistence.",
+        "Deployed services via Docker + Kubernetes + Railway with environment separation (dev/staging), enabling <10 min average deployment cycles and 0 critical deployment rollbacks in recent releases.",
       ],
     },
     {
