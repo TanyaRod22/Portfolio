@@ -20,6 +20,8 @@ import {
     web,
     comingsoon,
     microsoft_logo,
+    humana_logo,
+    octet_logo,
 } from "../assets";
   
   export const navLinks = [
@@ -101,11 +103,24 @@ import {
   
   const experiences = [
     {
-      title: "Software Development Engineer",
-      company_name: "Microsoft",
-      icon: microsoft_logo,
+      title: "AI Software Engineer",
+      company_name: "Octet AI",
+      icon: octet_logo,
       iconBg: "#383E56",
-      date: "June 2025 - Present",
+      date: "June 2025 - Dec 2025",
+      points: [
+        "Considered, developed, and deployed scalable backend services using Python, improving system performance and reducing API response latency by 35%.",
+        "Engineered RESTful APIs and microservices to support high-traffic enterprise applications, integrating with React.js, Angular, and Node.js for dynamic front-end experiences.",
+        "Deployed applications on AWS (EC2, S3, Lambda, RDS, CloudWatch), achieving 99.9% uptime and improving system reliability.",
+        "Constructed and maintained data-driven applications with PostgreSQL, MySQL, and MongoDB, optimizing query performance and ensuring high data consistency across",
+      ],
+    },
+    {
+      title: "Software Development Engineer",
+      company_name: "Humana",
+      icon: humana_logo,
+      iconBg: "#383E56",
+      date: "June 2025 - Dec 2025",
       points: [
         "Considered, developed, and deployed scalable backend services using Python, improving system performance and reducing API response latency by 35%.",
         "Engineered RESTful APIs and microservices to support high-traffic enterprise applications, integrating with React.js, Angular, and Node.js for dynamic front-end experiences.",

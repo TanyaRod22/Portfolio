@@ -23,7 +23,7 @@ import iwmbuzz_logo from "./company/iwmbuzz_logo.jpg";
 import TSP_logo from "./company/TSP_logo.png";
 import humana_logo from "./company/humana_logo.png";
 import microsoft_logo from "./company/microsoft_logo.png";
-
+import octet_logo from "./company/octet_logo.png"; 
 import comingsoon from "./comingsoon.jpg";
 import dogmatch from "./dogmatch.png";
 import weatherapp from "./weatherapp.png";
@@ -39,6 +39,7 @@ export {
   HD_logo,
   iwmbuzz_logo,
   TSP_logo,
+  octet_logo,
   humana_logo,
   microsoft_logo,
   close,
