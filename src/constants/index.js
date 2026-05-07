@@ -107,7 +107,7 @@ import {
       company_name: "Octet AI",
       icon: octet_logo,
       iconBg: "#383E56",
-      date: "June 2025 - Dec 2025",
+      date: "January 2026 - Present",
       points: [
         "Built a full-stack platform using FastAPI, React Native (Expo), and PostgreSQL, delivering 25+ API endpoints, 15+ mobile screens, and 2 role-based experiences (homeowner + contractor) across estimate-to-project workflows.",
         "Designed a rule-based estimate engine that converts unstructured inputs into structured BOM/labor outputs, supporting 100+ estimate scenarios and reducing manual estimation steps by ~60% in internal testing.",
@@ -122,7 +122,7 @@ import {
       company_name: "Humana",
       icon: humana_logo,
       iconBg: "#383E56",
-      date: "June 2025 - Dec 2025",
+      date: "June 2025 - December 2025",
       points: [
         "Considered, developed, and deployed scalable backend services using Python, improving system performance and reducing API response latency by 35%.",
         "Engineered RESTful APIs and microservices to support high-traffic enterprise applications, integrating with React.js, Angular, and Node.js for dynamic front-end experiences.",
