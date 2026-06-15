@@ -27,6 +27,8 @@ import octet_logo from "./company/octet_logo.png";
 import comingsoon from "./comingsoon.jpg";
 import dogmatch from "./dogmatch.png";
 import weatherapp from "./weatherapp.png";
+import joblens from "./joblens.png";
+import aidocumind from "./aidocumind.png";
 
 export {
   logo,
@@ -56,4 +58,6 @@ export {
   dogmatch,
   weatherapp,
   comingsoon,
+  joblens,
+  aidocumind,
 };

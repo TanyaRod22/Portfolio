@@ -18,9 +18,9 @@ import {
     weatherapp,
     dogmatch,
     web,
-    comingsoon,
-    microsoft_logo,
+    joblens,
     humana_logo,
+    aidocumind,
     octet_logo,
 } from "../assets";
   
@@ -203,6 +203,48 @@ import {
   
   const projects = [
     {
+      name: "Joblens",
+      description:
+        "Joblens is an agentic browser extension that analyzes job postings in real time, extracts actionable insights, and helps candidates prepare tailored applications through resume matching, interview preparation, and AI-assisted outreach generation.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: joblens,
+      source_code_link: "",
+    },
+    {
+      name: "AIDocuMind",
+      description:
+        "Built AIDocuMind, a GenAI-powered document intelligence platform that enables semantic search and contextual question answering over unstructured documents. Developed document ingestion and embedding pipelines using Python, FastAPI, OpenAI embeddings, and FAISS, implementing a Retrieval-Augmented Generation (RAG) workflow to improve information discovery and reduce manual document review effort.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aidocumind,
+      source_code_link: "https://aidocumind.netlify.app/",
+    },
+    {
       name: "Weather App",
       description:
         "I developed a weather application with geolocation functionality, prompting users for location access upon website load. Using the Geolocation API and OpenWeatherMap API, the app fetches and displays real-time weather information based on the user's current location. This feature works alongside a manual city search, providing a comprehensive weather overview with temperature, city name, weather conditions, and real-time images.",
@@ -223,27 +265,27 @@ import {
       image: weatherapp,
       source_code_link: "https://github.com/TanyaRod22/WeatherApp.github.io",
     },
-    {
-      name: "DevTinder",
-      description:
-        "A full-stack matchmaking platform for developers, built with React, Node.js, and MongoDB. Features include secure user auth with JWT, profile creation, and protected API routes. Future updates will add real-time matching, messaging, and Salesforce integration.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TypeScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Next",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: comingsoon,
-      source_code_link: "In Progress",
-    },
+    // {
+    //   name: "DevTinder",
+    //   description:
+    //     "A full-stack matchmaking platform for developers, built with React, Node.js, and MongoDB. Features include secure user auth with JWT, profile creation, and protected API routes. Future updates will add real-time matching, messaging, and Salesforce integration.",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TypeScript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Next",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: comingsoon,
+    //   source_code_link: "In Progress",
+    // },
     {
       name: "Match Your Dog",
       description:
