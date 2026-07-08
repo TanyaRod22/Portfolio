@@ -221,7 +221,7 @@ import {
         },
       ],
       image: joblens,
-      source_code_link: "",
+      source_code_link: "https://chromewebstore.google.com/detail/pjloihfekgljkeebmkkkefieadecpagm?utm_source=item-share-cb",
     },
     {
       name: "AIDocuMind",
