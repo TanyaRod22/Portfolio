@@ -77,14 +77,14 @@ const Hero = () => {
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
                 Get In Touch
               </Button>
-              <Button 
+              {/* <Button 
                 size="lg" 
                 variant="ghost" 
                 className="flex items-center rounded-lg text-gray-300 hover:text-white hover:bg-white/10 text-sm sm:text-base"
               >
                 <Download className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
-                  <a href="https://drive.google.com/file/d/1etNkOmZB7wBUIUb67w8bB8yLgOj1GY4q/view?usp=sharing">Resume</a>
-              </Button>
+                  <a href="">Resume</a>
+              </Button> */}
             </div>
 
             {/* Stats */}
