@@ -35,10 +35,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Full Stack Developer with a Master's in Computer Science. I have 2
-        years of experience in Full Stack Development with strong Front-End focus, working on end to end development, e-commerce websites, and web applications. My expertise
-        includes React.js, JavaScript, TypeScript, Tailwind CSS, Node.js, Python, SQL/NoSQL databases, and AWS, along with
-        experience in technical SEO, site performance enhancements, and cloud deployment.
+        I'm a Full Stack Software Engineer with a Master's in Computer Science and 3 years 
+        of experience building and deploying end-to-end web applications and scalable software systems. 
+        My work spans React, TypeScript, Python, FastAPI, Node.js, PostgreSQL, AWS, and Docker, with experience 
+        building production APIs, AI-powered workflows, cloud infrastructure, and responsive user experiences. 
+        I enjoy working across the stack,from designing intuitive frontends and reliable backend services to optimizing databases,
+        integrating AI, and deploying applications to the cloud.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

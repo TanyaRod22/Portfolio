@@ -33,11 +33,12 @@ const Hero = () => {
                 </span>
               </h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300">
-                Full Stack Developer
+                Full Stack Software Engineer
               </h2>
               <p className="max-w-[600px] text-sm sm:text-base md:text-xl text-gray-400 leading-relaxed">
-                I craft exceptional digital experiences with modern web technologies. 
-                Specializing in React, Node.js, and cloud architecture to bring your ideas to life.
+              I build scalable, AI-powered web applications and digital experiences.
+              Specializing in React, TypeScript, Python, FastAPI, Node.js, and cloud 
+              technologies to turn complex ideas into reliable products.
               </p>
             </div>
 
@@ -89,7 +90,7 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex gap-6 sm:gap-8 pt-4">
               <div>
-                <div className="text-xl sm:text-2xl font-bold text-white">2+</div>
+                <div className="text-xl sm:text-2xl font-bold text-white">3</div>
                 <div className="text-xs sm:text-sm text-gray-400">Years Experience</div>
               </div>
               <div>

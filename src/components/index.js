@@ -5,6 +5,7 @@ import Social from './Social';
 import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
+import Education from './Education';
 import Works from './Works';
 import Contact from './Contact';
 
@@ -14,6 +15,7 @@ export {
   Social,
   About,
   Tech,
+  Education,
   Experience,
   Works,
   Contact,
