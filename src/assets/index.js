@@ -6,6 +6,12 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import dogmatch from "./dogmatch.png";
+import weatherapp from "./weatherapp.png";
+import joblens from "./Joblens.png";
+import aidocumind from "./aidocumind.png";
+import binghamton_university_logo from "./education/binghamton_university_logo.png";
+import mumbai_university_logo from "./education/mumbai_university_logo.png";
 
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -24,12 +30,6 @@ import TSP_logo from "./company/TSP_logo.png";
 import humana_logo from "./company/humana_logo.png";
 import Wevise_logo from "./company/Wevise_logo.png";
 import octet_logo from "./company/octet_logo.png"; 
-import comingsoon from "./comingsoon.jpg";
-import dogmatch from "./dogmatch.png";
-import weatherapp from "./weatherapp.png";
-import joblens from "./Joblens.png";
-import aidocumind from "./aidocumind.png";
-
 export {
   logo,
   backend,
@@ -57,7 +57,8 @@ export {
   typescript,
   dogmatch,
   weatherapp,
-  comingsoon,
   joblens,
   aidocumind,
+  binghamton_university_logo,
+  mumbai_university_logo,
 };

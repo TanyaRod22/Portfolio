@@ -23,6 +23,8 @@ import {
     aidocumind,
     octet_logo,
     Wevise_logo,
+    binghamton_university_logo,
+    mumbai_university_logo,
 } from "../assets";
   
   export const navLinks = [
@@ -101,7 +103,24 @@ import {
       icon: docker,
     },
   ];
-  
+
+  const education = [
+    {
+      degree: "Master of Science in Computer Science",
+      university: "State University of New York at Binghamton",
+      icon: binghamton_university_logo,
+      iconBg: "#383E56",
+      date: "2023 - 2025",
+    },
+    {
+      degree: "Bachelor of Engineering in Information Technology",
+      university: "Mumbai University",
+      icon: mumbai_university_logo,
+      iconBg: "#383E56",
+      date: "2018 - 2022",
+    },
+  ];
+
   const experiences = [
     {
       title: "AI Software Engineer",
@@ -274,27 +293,6 @@ import {
       image: weatherapp,
       source_code_link: "https://github.com/TanyaRod22/WeatherApp.github.io",
     },
-    // {
-    //   name: "DevTinder",
-    //   description:
-    //     "A full-stack matchmaking platform for developers, built with React, Node.js, and MongoDB. Features include secure user auth with JWT, profile creation, and protected API routes. Future updates will add real-time matching, messaging, and Salesforce integration.",
-    //   tags: [
-    //     {
-    //       name: "React",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "TypeScript",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Next",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: comingsoon,
-    //   source_code_link: "In Progress",
-    // },
     {
       name: "Match Your Dog",
       description:
@@ -318,5 +316,5 @@ import {
     },
   ];
   
-  export { experiences, projects, services, technologies, testimonials };
+  export { experiences, education, projects, services, technologies, testimonials };
   
