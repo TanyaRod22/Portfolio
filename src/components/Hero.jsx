@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Button } from "../ui/button"
 import { Badge } from "../ui/badge"
-import { Code, Database, Globe, ArrowRight, Download, Mail } from 'lucide-react'
+import { Code, Database, Globe, ArrowRight, Download, Mail, Bot } from 'lucide-react'
 import Image from "../assets/Image.jpg"
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-6xl/none text-white">
                 Hi, I'm{" "}
                 <span className="bg-gradient-to-r from-[#915eff] to-purple-400 bg-clip-text text-transparent">
-                  Tanya Rodrigues
+                  Tanya Keeler
                 </span>
               </h1>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300">
@@ -55,6 +55,10 @@ const Hero = () => {
               <div className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1 rounded-full bg-white/5 border border-white/10">
                 <Globe className="w-3 h-3 sm:w-4 sm:h-4 text-[#915eff]" />
                 <span className="text-xs sm:text-sm text-gray-300">Cloud</span>
+              </div>
+              <div className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1 rounded-full bg-white/5 border border-white/10">
+                <Bot className="w-3 h-3 sm:w-4 sm:h-4 text-[#915eff]" />
+                <span className="text-xs sm:text-sm text-gray-300">AI</span>
               </div>
             </div>
 
