@@ -167,7 +167,7 @@ import {
       company_name: "Hubzone Depot",
       icon: HD_logo,
       iconBg: "#E6DEDD",
-      date: "August 2024 - February 2025",
+      date: "August 2024 - December 2024",
       points: [
         "Built a full-stack multi-vendor platform using Node.js, TypeScript, React, and PostgreSQL, increasing RFQ transaction throughput by 30% while keeping query latency under 200ms for 50k+ daily catalog item searches.",
         "Architected an event-driven data pipeline to process 10,000+ carrier invoice payloads per day, reducing pipeline ingestion lag by 45% to enable multi-carrier audit validation and credit recovery.",
